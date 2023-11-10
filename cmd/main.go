@@ -5,10 +5,10 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/santos95mat/go-fiber-request/user"
+	"github.com/santos95mat/go-fiber-request/internal/usecase"
 )
 
-var userRequest user.UserRequest
+var userRequest usecase.UserRequest
 
 func app() {
 	app := fiber.New()
